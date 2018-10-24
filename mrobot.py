@@ -33,7 +33,7 @@ def main():
     print('hello world!!!')
     name = input('Your name:')
 
-    print(name," Hello")
+    print(name," Hello!!")
     answer = ''
     while answer != 'q':
            answer = input("Lets work (y/n)")
