@@ -30,7 +30,7 @@ def del_dublicats(dirname):
     return double_count
 
 def main():
-    print('hello world')
+    print('hello world!!!')
     name = input('Your name:')
 
     print(name," Hello")
