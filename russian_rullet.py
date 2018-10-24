@@ -41,11 +41,11 @@ def rotate_pistol(base_x,base_y, start):
     for i in range(start, random.randrange(7, 100)):
         phi_rad = phi * i * math.pi / 180.0
         gotoxy(base_x+math.sin(phi_rad) * r, base_y+math.cos(phi_rad) * r + 60)
-        draw_circule(20, "brown")
+        draw_circule(20, "black")
         draw_circule(20, "white")
 
     gotoxy(base_x+math.sin(phi_rad) * r, base_y+math.cos(phi_rad) * r + 60)
-    draw_circule(20, "brown")
+    draw_circule(20, "black")
     return  i % 7
 
 
