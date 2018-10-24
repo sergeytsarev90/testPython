@@ -44,7 +44,7 @@ def main():
                 print("3- Process")
                 print("4- Dublicate")
                 print("5- Dublicate user file")
-                print("6- Delete dublicate")
+                print("6- Delete dublicate file")
                 do = int(input())
                 if do == 1:
                   print(os.listdir())
